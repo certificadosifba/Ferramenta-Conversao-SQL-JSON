@@ -27,7 +27,7 @@ Os seguintes passos podem ser seguidos para execução da ferramenta.
 1. Clonar o repositório;
 
 ```bash
-$ https://github.com/certificadosifba/Ferramenta-Conversao-SQL-MongoDB.git
+$ https://github.com/certificadosifba/Ferramenta-Conversao-SQL-JSON.git
 ```
 
 2. Iniciar o servidor PHP;
