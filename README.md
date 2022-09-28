@@ -4,9 +4,9 @@ Projeto desenvolvido para o Trabalho de Conclusão de Curso, do Curso Superior e
 de Informação do Instituto Federal de Educação, Ciência e Tecnologia da Bahia campus Vitória da
 Conquista.
 
-O intuito do projeto é permitir a migração de uma base de dados SQL para MongoDB, para isso, através de consultas SQL a uma determinada base de dados, os resultados obtidos serão retornados em formato JSON, permitindo uma posterior inserção no banco não relacional.
+O intuito do projeto é permitir a migração de uma base de dados MySQL para MongoDB, para isso, através de consultas SQL a uma determinada base de dados, os resultados obtidos serão retornados em formato JSON, permitindo uma posterior inserção no banco não relacional.
 
-A ferramenta desenvolvida permite a migração de qualquer base de dados SQL para o formato JSON, podendo mais tarde ser inserido no MongoDB, contudo, não há uma forma única de utilização, visto que cada base de dados atende uma determinada demanda, e a depender da proposta de modelagem do MongoDB será necessário o ajuste da lógica.
+A ferramenta desenvolvida permite a migração da base de dados SQL para o formato JSON, podendo mais tarde ser inserido no MongoDB. Contudo, não há uma forma única de utilização, visto que cada base de dados atende uma determinada demanda, e a depender da proposta de modelagem do MongoDB será necessário o ajuste da lógica.
 <br><br>
 
 # Tecnologias utilizadas
@@ -19,7 +19,7 @@ A ferramenta desenvolvida permite a migração de qualquer base de dados SQL par
 
 A ferramenta está dividida em duas, uma irá retornar uma migração em vários documentos, a outra em único documento.
 
-A instrução básica de uso é entender a estrutura que se quer obter e a partir disso manipular a lógica da ferramenta para que esta atenda a proposta requerida, modificando as consultas SQL e a estrutura dos <i>for's</i> que geram os arrays e documentos.
+A instrução básica de uso é entender a estrutura que se quer obter e a partir disso manipular a lógica da ferramenta para que esta atenda a proposta requerida, modificando as consultas SQL e a estrutura dos <i>for's</i> que geram os arrays e os documentos.
 
 Os seguintes passos podem ser seguidos para execução da ferramenta.
 <br>
